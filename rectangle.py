@@ -16,6 +16,8 @@ class Rectangle:
         self.height = height
         self.width = width
 
+    # selfつきで宣言された変数はクラスの中で使える。(selfがなければ各関数内のみ。)
+
     def area(self):
         return self.height * self.width
 
