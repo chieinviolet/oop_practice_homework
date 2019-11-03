@@ -5,19 +5,18 @@ radias
 
 
 class Circle:
-    pai = 3.14
-    def __init__(self, radias):
-
-        self.radias = radias
+    # pai = 3.14
+    def __init__(self, radius):
+        self.radius = radius
 
     def area(self):
-        return self.radias ** 2 * pai
+        return self.radius ** 2 * 3.14
 
     def perimeter(self):
-        return self.radias * 2 * π
+        return self.radius * 2 * 3.14
 
 
-circle1 = Circle(1)
+circle1 = Circle(radius=1)
 print(circle1.area())  # 3.14
 print(circle1.perimeter())  # 6.28
 
