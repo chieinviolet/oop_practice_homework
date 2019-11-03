@@ -5,11 +5,16 @@ radias
 
 
 class Circle:
+    pai = 3.14
     def __init__(self, radias):
-        π = 3.14
+
         self.radias = radias
-        self.area = self.radias ** 2 * π
-        self.perimeter = self.radias * 2 * π
+
+    def area(self):
+        return self.radias ** 2 * pai
+
+    def perimeter(self):
+        return self.radias * 2 * π
 
 
 circle1 = Circle(1)
